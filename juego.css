@@ -1,0 +1,29 @@
+
+#juego{
+  width: 900px;
+  height: 900px;
+  position: relative;
+  border: solid 0px black;
+outline: 0px groove #282E85;
+outline-offset: 0px;
+}
+
+.pieza{
+  outline: 1.5px ridge #080433;
+  width: 300px;
+  height: 300px;
+  background-size: 100% 100%;
+  position: absolute;
+ transition: .1s linear;
+}
+body {
+  background-image: url(piezas/galas.jpg);
+  background-size: cover;
+}
+
+.alert {
+  float: right;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
